@@ -1,0 +1,35 @@
+body{
+    background-color: antiquewhite;
+}
+.imgs{
+    display: flex;
+    flex-wrap: wrap;
+    width: 50%;
+    margin: 80px auto 20px;
+    gap: 10px;
+    justify-content: center;
+align-items: center;
+}
+.imgs img{
+    width: 120px;
+    height: 135px;
+}
+h1{
+    text-align: center;
+    margin: 30px auto;
+    color: #008050b8;
+    width: 100%;
+    border-top: 4px solid #008050b8;
+    border-bottom: 4px solid #008050b8;
+}
+.card{
+    display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+}
+#msg ,#g ,#pMsg{
+    margin: auto;
+display: block;
+text-align: center;
+}
